@@ -1,0 +1,90 @@
+*{
+    padding: auto;
+    margin: auto;
+    background: #333;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+#formMouse{
+    padding-top: 30px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 20px auto;
+    border-radius: 1px solid, white;
+}
+
+#formMouseFields{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+#formMouseFields input{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background: #333;
+    color: #fff;
+}
+#formMouseFieldsButton{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+#formMouseFieldsButton:hover{
+    background: #fff;
+    color: #333;
+}
+#divErrors{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background: #333;
+    color: #fff;
+}
+.celda{
+    width: 15px;
+    height: 15px;
+    border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    border: 1px solid white;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.fila{
+    height: 17px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2px;
+}
+#tablero{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background: #333;
+    color: #fff;
+}
