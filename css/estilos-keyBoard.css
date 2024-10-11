@@ -1,0 +1,16 @@
+*{
+    margin-top: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: cornflowerblue;
+    height: 99vh;
+}
+
+#rectangulo{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 20px;
+}
